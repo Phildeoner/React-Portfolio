@@ -1,2 +1,2 @@
 # React-Portfolio
-My Portfolio built with React and tailwind
+My Portfolio built with React and tailwind CSS
