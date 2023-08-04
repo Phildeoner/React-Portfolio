@@ -146,7 +146,7 @@ const projects = [
     id: "project-2",
     name: "Portfolio Project",
     description:
-      "A simple protfolio with multiple sections containg owners information.",
+      "A simple portfolio with multiple sections containing owners information.",
     tags: [
       {
         name: "html",
@@ -162,8 +162,8 @@ const projects = [
       },
     ],
     image: portfolio,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+    repo: "https://github.com/Phildeoner/my-portfolio",
+    demo: "https://phildeoner.github.io/my-portfolio/",
   },
   {
     id: "project-3",
