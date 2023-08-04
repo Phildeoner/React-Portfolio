@@ -6,7 +6,7 @@ import {
   BsTwitter,
   BsLinkedin,
 } from "react-icons/bs";
-import { shaq } from "../assets";
+import { photo } from "../assets";
 
 export default function Footers() {
   return (
@@ -18,7 +18,7 @@ export default function Footers() {
               alt="Logo"
               className="w-12 rounded-full text-gray-100  -ml-[70px] sm:-ml-0"
               name="Phildeoner"
-              src={shaq}
+              src={photo}
             />
             <p className="text-[35px] font-semi-bold">Phildeoner</p>
           </div>

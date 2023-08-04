@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { shaq, home } from "../assets";
+import { photo, home } from "../assets";
 
 const Hero = () => {
   return (
@@ -78,7 +78,7 @@ const Hero = () => {
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[65vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             h-[70vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
+            src={photo}
             alt="shaquille"
           />
         </div>
