@@ -63,7 +63,6 @@ export {
   mentor,
   sendHover,
   css,
-  docker,
   figma,
   git,
   html,
@@ -80,7 +79,6 @@ export {
   timer,
   etch,
   portfolio,
-  space,
   top,
   seamfix,
 };

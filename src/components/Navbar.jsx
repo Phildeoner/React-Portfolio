@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { close, menu, shaq } from "../assets";
+import { close, menu, photo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src={shaq} // your logo comes here
+            src={photo} // your logo comes here
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] border rounded-full object-contain"
           />

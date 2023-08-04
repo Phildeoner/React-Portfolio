@@ -1,6 +1,6 @@
 import {
   frontend,
-  backend,
+  mentor,
   ux,
   javascript,
   html,
@@ -54,7 +54,7 @@ const services = [
   },
   {
     title: "Mentor/Facilitator",
-    icon: backend,
+    icon: mentor,
   },
   {
     title: "Graphics Designer",
