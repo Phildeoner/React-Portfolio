@@ -25,20 +25,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // sign up on emailjs.com (select the gmail service and connect your account).
-    //click on create a new template then click on save.
     emailjs
       .send(
-        "service_znd9b7m", // paste your ServiceID here (you'll get one when your service is created).
-        "template_4ocoav6", // paste your TemplateID here (you'll find it under email templates).
+        "service_znd9b7m",
+        "template_4ocoav6",
         {
           from_name: form.name,
-          to_name: "Phildeoner", // put your name here.
+          to_name: "Phildeoner",
           from_email: form.email,
-          to_email: "phildeoner@gmail.com", //put your email here.
+          to_email: "phildeoner@gmail.com",
           message: form.message,
         },
-        "4sIxiCLjSK3pZXgv8" //paste your Public Key here. You'll get it in your profile section.
+        "4sIxiCLjSK3pZXgv8"
       )
       .then(
         () => {
