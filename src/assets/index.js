@@ -1,6 +1,5 @@
 import nairobi from "./backgrounds/nairobi.png";
 import whiteabstract from "./backgrounds/white-abstract.png";
-import worldmap from "./backgrounds/world-map.png";
 import home from "./backgrounds/home.jpg";
 import tech from "./backgrounds/tech.jpg";
 import tech1 from "./backgrounds/tech1.jpg";
@@ -8,6 +7,7 @@ import tech1 from "./backgrounds/tech1.jpg";
 import photo from "./personal/phildeoner.png";
 
 import ux from "./icons/ux.png";
+import mentor from "./icons/mentor.png";
 import frontend from "./icons/frontend.png";
 import github from "./icons/github.png";
 import close from "./icons/close.png";
@@ -60,6 +60,7 @@ export {
   menu,
   resume,
   send,
+  mentor,
   sendHover,
   css,
   docker,
