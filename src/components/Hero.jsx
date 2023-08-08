@@ -32,7 +32,7 @@ const Hero = () => {
               Hi, I'm{" "}
             </h1>
             <p
-              className="sm:text-battleGray sm:text-[27px] md:text-[40px]
+              className="sm:text-eerieBlack sm:text-[27px] md:text-[40px]
                 text-eerieBlack text-[22px] font-mova
                 font-extrabold uppercase drop-shadow-2xl">
               Yakubu Bobai Ephraim

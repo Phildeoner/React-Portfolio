@@ -8,7 +8,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]">
       <div
         options={{
           max: 45,
@@ -29,13 +29,15 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className="sm:text-[18px] text-[16px] text-gray-700 uppercase tracking-wider font-semibold font-poppins">
+          Introduction
+        </p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-gray-600 text-[18px] text-justify max-w-3xl leading-[30px]">
+        className="mt-4 text-black text-[18px] text-justify max-w-3xl leading-[30px]">
         I develop the front-end of websites and web applications as a frontend
         developer, which contributes to the overall success of the finished
         product. View a selection of my work under Projects. <br />

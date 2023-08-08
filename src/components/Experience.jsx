@@ -55,7 +55,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
+        <p className="sm:text-[18px] text-[16px] text-gray-700 uppercase tracking-wider font-semibold font-poppins sm:pl-16 pl-[2rem]">
           What I've done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
