@@ -167,7 +167,7 @@ const projects = [
   },
   {
     id: "project-3",
-    name: "2023 Countdown Timer",
+    name: "Countdown Timer",
     description: `A countdown timer for the year 2023, which will run all through the year and stops once the year is ended.`,
     tags: [
       {
