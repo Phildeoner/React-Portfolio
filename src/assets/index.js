@@ -34,6 +34,7 @@ import bootstrap from "./tech/bootstrap.png";
 
 import top from "./company/top.png";
 import seamfix from "./company/seamfix.png";
+import careerly from "./company/careerly.svg";
 
 import admin from "./projects/admin.jpg";
 import capstone from "./projects/capstone.jpg";
@@ -41,6 +42,9 @@ import portfolio from "./projects/portfolio.jpg";
 import timer from "./projects/timer.jpg";
 import etch from "./projects/etch.jpg";
 import prs from "./projects/prs.jpg";
+import todo from "./projects/todo.jpg";
+import pebywine from "./projects/pebywine.jpg";
+import bookchasers from "./projects/bookchasers.jpg";
 
 export {
   nairobi,
@@ -79,6 +83,10 @@ export {
   timer,
   etch,
   portfolio,
+  todo,
+  pebywine,
+  bookchasers,
   top,
   seamfix,
+  careerly,
 };

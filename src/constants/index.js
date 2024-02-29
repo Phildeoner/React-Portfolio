@@ -18,6 +18,10 @@ import {
   timer,
   top,
   seamfix,
+  careerly,
+  pebywine,
+  todo,
+  bookchasers,
 } from "../assets";
 
 export const navLinks = [
@@ -103,6 +107,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Fullstack Developer",
+    company_name: "Careerli",
+    icon: careerly,
+    iconBg: "#333333",
+    date: "Sept 2023 - Till Date",
+  },
+  {
     title: "Front-End Development Facilitator",
     company_name: "Seamfix NextGen Academy",
     icon: seamfix,
@@ -121,6 +132,74 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
+    name: "Todo App",
+    description: `A todo app built with MERN stack which also uses AI to generate todo list on prompt.`,
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    repo: "https://github.com/Phildeoner/to-do-app",
+    demo: "https://app-todo-mern.netlify.app/",
+  },
+  {
+    id: "project-2",
+    name: "E-Commerce Website",
+    description:
+      "An E-commerce website for sales and purchase of different types and brands of wine",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pebywine,
+    repo: "https://github.com/Phildeoner/E-commerce-Website",
+    demo: "https://pebywines.netlify.app/",
+  },
+  {
+    id: "project-3",
+    name: "BookChasers App",
+    description:
+      "A website for showcasing booking contents, writing, commenting and liking articles and showcasing interviews on books related subjects.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookchasers,
+    repo: "https://github.com/Phildeoner/bookstore-project",
+    demo: "https://bookchasers.netlify.app/",
+  },
+  {
+    id: "project-4",
     name: "Capstone Project",
     description:
       "The capstone project is a seminar website for an upcoming seminar called TOP Developers seminar for the year 2023.",
@@ -143,7 +222,7 @@ const projects = [
     demo: "https://phildeoner.github.io/Capstone-Project/",
   },
   {
-    id: "project-2",
+    id: "project-5",
     name: "Portfolio Project",
     description:
       "A simple portfolio with multiple sections containing owners information.",
@@ -164,74 +243,6 @@ const projects = [
     image: portfolio,
     repo: "https://github.com/Phildeoner/my-portfolio",
     demo: "https://phildeoner.github.io/my-portfolio/",
-  },
-  {
-    id: "project-3",
-    name: "Countdown Timer",
-    description: `A countdown timer for the year 2023, which will run all through the year and stops once the year is ended.`,
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: timer,
-    repo: "https://github.com/Phildeoner/2023-Countdown",
-    demo: "https://phildeoner.github.io/2023-Countdown/",
-  },
-  {
-    id: "project-4",
-    name: "Rock Paper Scissors",
-    description:
-      "This is a rock paper scissors game, which accepts inputs on click of a button and compare it to a computer input which is randomly generated.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prs,
-    repo: "https://github.com/Phildeoner/Game-PRS-Complete",
-    demo: "https://phildeoner.github.io/Game-PRS-Complete/",
-  },
-  {
-    id: "project-5",
-    name: "Etch a Sketch",
-    description:
-      "This is a sketch board designed for sketching designs and writing.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: etch,
-    repo: "https://github.com/Phildeoner/Project-Etch-A-Sketch",
-    demo: "https://phildeoner.github.io/Project-Etch-A-Sketch/",
   },
 ];
 
