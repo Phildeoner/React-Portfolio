@@ -66,7 +66,7 @@ const Navbar = () => {
                     key={nav.id}
                     className={`${
                       active === nav.title ? "text-french" : "text-eerieBlack"
-                    } text-[30px] font-semi-bold
+                    } text-[24px] font-semi-bold
                       uppercase cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
